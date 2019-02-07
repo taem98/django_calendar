@@ -1,0 +1,18 @@
+table.calendar {
+    border: 1px solid black;
+    border-spacing: 5px;
+    font-size: 8px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 650px;
+    
+    background-image: url(topleft.jpg), url(topright.jpg), url(bottomleft.jpg), url(bottomright.jpg),
+                        url(top.jpg), url(left.jpg), url(right.jpg), url(bottom.jpg);
+    
+    background-position: left top, right top, left bottom, right bottom, left top, left top, right top, left bottom;
+    
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+    }
